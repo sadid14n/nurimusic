@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Martel+Sans:wght@600&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    height: 56px;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.logo img{
+    width: 43px;
+    padding: 0px 4px;
+}
+
+.logo{
+    font-family: 'Caveat', cursive;
+    font-size: xx-large;
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(/assets/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.bottom input{
+    cursor: pointer;
+}
+
+.icons{
+    margin-bottom: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#progressBar{
+    width: 75vw;
+    margin: auto;
+}
+
+.songItemContainer{
+    margin-top: 40px;
+}
+
+.songItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 50px;
+    border-radius: 34px;
+    margin: 12px 0;
+}
+
+.songItems img{
+    width: 35px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timeStamps{
+    margin: 0 23px;
+}
+
+.timeStamps i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.text{
+    font-size: 30px;
+    width: 80vw;
+    margin: 23px auto;
+}
